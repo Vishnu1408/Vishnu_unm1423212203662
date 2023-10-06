@@ -1,24 +1,11 @@
-#1.1 implement the recursive function to calculate the factorial number.
-
-"""
-1!= 1 x 1
-2! = 2 x 1! --> 2 x 1
-3! = 3 x 2! --> 3 x 2 x 1
-.
-.
-  10! =10 x 9! --> 10 x 9 x 8 x 7 x.....
-
-Formula - n x (n-1)!
-"""
-
-
-def fact_rec(n):
-  if n==0 or n==1:
-     return 1
-  else:
-     return n*fact_rec(n-1)
-
-number=3
-res = fact_rec(number)
-
-print("the factorial of {} is {}.". format (number,res))
+def genpass():
+  lengthpasswd =input("what is your password length"?)
+  passwordfinal="".join(random.sample(mergeapproaches,int(lengthpasswd))
+  print(passwrdfinal)
+  tryOther =input("try again? (y/n)")
+  if tryOther ="y":
+  print("\n")
+  genpass()
+else:
+print("\n")
+exit()
